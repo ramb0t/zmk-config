@@ -5,7 +5,7 @@ manifest:
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
     - name: m165437 # See Project https://github.com/M165437/nice-view-gem
-    url-base: https://github.com/M165437 
+      url-base: https://github.com/M165437 
   projects:
     - name: zmk
       remote: zmkfirmware
