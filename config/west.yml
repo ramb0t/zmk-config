@@ -14,7 +14,7 @@ manifest:
       import: app/west.yml
     - name: zmk-nice-oled
       remote: tokyo2006
-      revision: "4.0"
+      revision: de5b2afbd05f1a136e31ca28659373cd07d1e443
   self:
     path: config
   
