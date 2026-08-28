@@ -121,7 +121,7 @@
 //              |      |       |       |      |      |   |      |      | ugHd | ugSAd | ugBd |
             bindings = <
 &bt BT_CLR       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                             &trans           &trans           &trans           &trans           &trans   &trans
-&trans           &kp INS       &kp PSCRN     &kp K_CMENU   &ext_power EP_ON &trans                                 &kp PG_UP        &trans           &kp UP           &trans           &kp N0   &trans
+&trans           &kp INS       &kp PSCRN     &kp K_CMENU   &rgb_ug RGB_ON   &trans                                 &kp PG_UP        &trans           &kp UP           &trans           &kp N0   &trans
 &rgb_ug RGB_BRI  &kp LALT      &kp LCTRL     &kp LSHFT     &trans        &kp CLCK                                 &kp PG_DN        &kp LEFT         &kp DOWN         &kp RIGHT        &kp DEL  &kp BSPC
 &rgb_ug RGB_BRD  &kp K_UNDO    &kp K_CUT     &kp K_COPY    &kp K_PASTE   &trans        &trans    &rgb_ug RGB_TOG  &rgb_ug RGB_EFF  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &trans   &trans
                              &studio_unlock  &trans        &trans        &trans        &trans    &trans           &trans           &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD
