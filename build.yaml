@@ -25,6 +25,4 @@ include:
     cmake-args: -DCONFIG_ZMK_STUDIO=y
   - board: nice_nano//zmk
     shield: sofle_right nice_view_adapter nice_epaper
-    # PROBE ONLY -- remove once the right half's dark underglow is diagnosed.
-    snippet: zmk-usb-logging
 
