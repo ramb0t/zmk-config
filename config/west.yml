@@ -2,6 +2,9 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
+    # nice_epaper shield (bongo cat) - PR #37 fork, LVGL 9 migration
+    - name: tokyo2006
+      url-base: https://github.com/tokyo2006
     # Additional modules containing boards/shields/custom code can be listed here as well
     # See https://docs.zephyrproject.org/3.2.0/develop/west/manifest.html#projects
   projects:
@@ -9,6 +12,9 @@ manifest:
       remote: zmkfirmware
       revision: 641514a97db345f499dd50b0360e594270f008fe
       import: app/west.yml
+    - name: zmk-nice-oled
+      remote: tokyo2006
+      revision: "4.0"
   self:
     path: config
   
